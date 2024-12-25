@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col md:flex-row laptop:flex-row laptop:justify-between  dark:bg-gray-900 mb-28 tablet:mb-28 md:mb-28 laptop:mb-4">
+    <section className=" flex flex-col md:flex-row laptop:flex-row laptop:justify-between  dark:bg-gray-900 mb-28 tablet:mb-28 md:mb-28 laptop:mb-24">
       <div className="text-sm text-center mt-24 px-5 laptop:text-left tablet:text-lg flex flex-col md:my-16 laptop:my-20 laptop:ml-6">
         <p className="dark:text-white">
           HELLO THERE, WELCOME TO MY DIGITAL SPACE

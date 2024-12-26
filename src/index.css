@@ -13,6 +13,8 @@
   body {
     font-family: 'Space Grotesk', sans-serif;
     line-height: 1.5;
+    background-color: #F0F4F8;
+    @apply dark:bg-gray-900; /* This adds dark mode support */
   }
 
   a {

@@ -11,9 +11,13 @@ import {
   faSymfony,
   faWordpress,
 } from "@fortawesome/free-brands-svg-icons";
-import { fa7, faD, faFileImage, faX } from "@fortawesome/free-solid-svg-icons";
+import {
+  fa7,
+  faFileImage,
+  faWandSparkles,
+} from "@fortawesome/free-solid-svg-icons";
 
-export const SkillBoxe = ({ SkillTitle, SkillIcon }) => {
+export const SkillBox = ({ SkillTitle, SkillIcon }) => {
   return (
     <div>
       <div className="text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -38,6 +42,11 @@ const skills = [
     id: uuidv4(),
     SkillTitle: "Php",
     SkillIcon: <FontAwesomeIcon icon={faPhp} />,
+  },
+  {
+    id: uuidv4(),
+    SkillTitle: "Tailwind",
+    SkillIcon: <FontAwesomeIcon icon={faWandSparkles} />,
   },
   {
     id: uuidv4(),
@@ -86,20 +95,20 @@ const skills = [
 
 const SkillComponent = () => {
   return (
-    <div className="Skills-section">
+    <section id="Skills" className="laptop:my-36">
       <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white">
         My Skills
       </h2>
-      <div className="flex flex-wrap justify-center gap-4 p-4 tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap laptop:justify-center laptop:gap-7 ">
+      <div className="flex flex-wrap justify-center gap-4 p-4 tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap laptop:justify-center laptop:gap-7 laptop:py-14 px-24 ">
         {skills.map((skill) => (
-          <SkillBoxe
+          <SkillBox
             key={skill.id}
             SkillTitle={skill.SkillTitle}
             SkillIcon={skill.SkillIcon}
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

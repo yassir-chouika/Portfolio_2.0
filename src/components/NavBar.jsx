@@ -18,8 +18,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-OffWhite dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="sticky top-0 left-0 right-0 bg-OffWhite dark:bg-gray-900">
+      <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <FontAwesomeIcon icon={faCode} className="dark:text-white" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -27,10 +27,7 @@ const NavBar = () => {
               CHOUIKA YASSIR{" "}
               <span className="text-xs text-IceBlue font-medium">
                 J.
-                <span className="hidden">
-                  unior
-                </span>{" "}
-                Web developper
+                <span className="hidden">unior</span> Web developper
               </span>
             </p>
           </span>
@@ -67,16 +64,19 @@ const NavBar = () => {
           <ul className="flex flex-col font-bold p-4 md:p-0 mt-4  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
-                href="#"
+                href="#Hero"
                 className="block py-2 px-3 md:p-0 text-white bg-SteelBlue rounded md:bg-transparent md:text-black md:dark:text-black "
                 aria-current="page"
               >
-                <FontAwesomeIcon icon={faHouse} className="text-SteelBlue dark:text-white" />
+                <FontAwesomeIcon
+                  icon={faHouse}
+                  className="text-SteelBlue dark:text-white"
+                />
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#Projects"
                 className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Projects
@@ -84,7 +84,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Contact"
                 className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Contact
@@ -92,10 +92,10 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Skills"
                 className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Resume
+                Skills
               </a>
             </li>
           </ul>

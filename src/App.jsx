@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import Hero from "./components/Hero.jsx";
 import ProjectSection from "./components/ProjectSection.jsx";
 import SkillComponent from "./components/SkillComponent.jsx";
+import ContactComponent from "./components/ContactComponent.jsx";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <ProjectSection />
         <SkillComponent />
+        <ContactComponent />
       </div>
     </ThemeProvider>
   );

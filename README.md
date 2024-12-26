@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## 🖥️ Live Demo
 
-Check out the live version of my portfolio here: [Take a Look](https://your-portfolio-url.com)
+Check out the live version of my portfolio here: [Take a Look](https://yassirchouika.vercel.app/)
 
 ---
 

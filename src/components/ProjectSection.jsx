@@ -5,7 +5,7 @@ import CardComponent from "./CardComponent";
 const projects = [
   {
     id: uuidv4(),
-    CardImage: "../public/Checklist.png",
+    CardImage: "/Checklist.png",
     CardTitle: "Pre Flight Checklist",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem ",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/PetPalsConnect.png",
+    CardImage: "/PetPalsConnect.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/Usa_B_W_T.png",
+    CardImage: "/Usa_B_W_T.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/Rock_Sur_Seine.png",
+    CardImage: "/Rock_Sur_Seine.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/TemplateWebsite.png",
+    CardImage: "/TemplateWebsite.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/PortfolioDraft.png",
+    CardImage: "/PortfolioDraft.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/PawFect_Match.png",
+    CardImage: "/PawFect_Match.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -61,7 +61,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    CardImage: "../public/Gloves.png",
+    CardImage: "/Gloves.png",
     CardTitle: "Personal Portfolio",
     CardDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
@@ -71,8 +71,8 @@ const projects = [
 
 const ProjectSection = () => {
   return (
-    <div className="projects-section">
-      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white">
+    <section id="Projects" className="projects-section">
+      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white laptop:mb-16">
         My Projects
       </h2>
       <div className="tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap mb-28 tablet:mb-28 md:mb-28 laptop:mb-24">
@@ -86,7 +86,7 @@ const ProjectSection = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -8,63 +8,63 @@ const projects = [
     CardImage: "/Checklist.png",
     CardTitle: "Pre Flight Checklist",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem ",
+      "Checklist web app built with React to manage tasks efficiently and intuitively. ",
     Url: "https://github.com/yassir-chouika/checklist-project",
   },
   {
     id: uuidv4(),
     CardImage: "/PetPalsConnect.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "PetPalsConnect",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "PetPalsConnect: A platform for pet lovers to connect, share, and build bonds.",
     Url: "https://github.com/yassir-chouika/PetPal-Connect",
   },
   {
     id: uuidv4(),
     CardImage: "/Usa_B_W_T.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "Team USA Basketball Féminin",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "Website dedicated to the U.S. women's basketball team participating in the 2024 Olympics in France.",
     Url: "https://github.com/yassir-chouika/Final-Project-JO",
   },
   {
     id: uuidv4(),
     CardImage: "/Rock_Sur_Seine.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "Rock Sur Seine",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "Designed the website for the next edition of the Rock En Seine festival.",
     Url: "https://github.com/yassir-chouika/Rock-En-Seine",
   },
   {
     id: uuidv4(),
     CardImage: "/TemplateWebsite.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "Landing Page",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "A visually appealing landing page template using HTML and CSS.",
     Url: "https://github.com/yassir-chouika/Landing_Page_Template",
   },
   {
     id: uuidv4(),
     CardImage: "/PortfolioDraft.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "Simple Portfolio Template",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "Designed a clean and elegant portfolio template using HTML and CSS.",
     Url: "https://github.com/yassir-chouika/SitePortfolioDraft",
   },
   {
     id: uuidv4(),
     CardImage: "/PawFect_Match.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "PawFect Match",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "Landing page for a dog dating platform, helping dogs meet new friends nearby with ease and exclusivity.",
     Url: "https://github.com/yassir-chouika/PawFect_Match",
   },
   {
     id: uuidv4(),
     CardImage: "/Gloves.png",
-    CardTitle: "Personal Portfolio",
+    CardTitle: "Boxing Gloves",
     CardDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsam, eos, dolore fuga autem.",
+      "Landing page for selling boxing gloves, showcasing quality products for all levels of training.",
     Url: "",
   },
 ];

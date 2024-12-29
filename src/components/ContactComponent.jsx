@@ -39,7 +39,7 @@ const ContactComponent = () => {
       <div className=" m-4 flex flex-row mt-24 ">
         <div className="w-full">
           <img
-            className="w-full"
+            className="w-full intersect:motion-preset-slide-right motion-duration-[1100ms] motion-delay-300"
             src="/Contact_me.png"
             alt="illustration"
           />
@@ -50,21 +50,21 @@ const ContactComponent = () => {
             <button
               onClick={handlePreview}
               type="button"
-              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 intersect:motion-preset-slide-left motion-duration-[1100ms] motion-delay-300"
             >
               Preview Resume <FontAwesomeIcon icon={faEye} />
             </button>
             <button
               onClick={handleDownload}
               type="button"
-              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 intersect:motion-preset-slide-left motion-duration-[1100ms] motion-delay-500"
             >
               Download Resume <FontAwesomeIcon icon={faDownload} />
             </button>
             <button
               onClick={handleGmail}
               type="button"
-              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 intersect:motion-preset-slide-left motion-duration-[1100ms] motion-delay-700"
             >
               Email Me <FontAwesomeIcon icon={faEnvelope} />
             </button>

@@ -8,7 +8,7 @@ const CardComponent = ({ CardImage, CardTitle, CardDescription, Url }) => {
   };
 
   return (
-    <div className="flex flex-col items-center p-3 tablet:w-1/2 laptop:flex laptop:flex-row laptop:w-1/2 ">
+    <div className="flex flex-col items-center p-3 tablet:w-1/2 laptop:flex laptop:flex-row laptop:w-1/2 intersect-once intersect:motion-preset-rebound-up motion-duration-[1100ms] motion-delay-700">
       <img
         className="w-full rounded-lg tablet:w-full laptop:w-64"
         src={CardImage}

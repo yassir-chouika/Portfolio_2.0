@@ -5,18 +5,21 @@ import Hero from "./components/Hero.jsx";
 import ProjectSection from "./components/ProjectSection.jsx";
 import SkillComponent from "./components/SkillComponent.jsx";
 import ContactComponent from "./components/ContactComponent.jsx";
+import ObserverProvider from "./context/ObserverProvider.jsx";
 import "./App.css";
 
 function App() {
   return (
     <ThemeProvider>
-      <div className="bg-OffWhite dark:bg-gray-900">
-        <NavBar />
-        <Hero />
-        <ProjectSection />
-        <SkillComponent />
-        <ContactComponent />
-      </div>
+      <ObserverProvider>
+        <div className="bg-OffWhite dark:bg-gray-900">
+          <NavBar />
+          <Hero />
+          <ProjectSection />
+          <SkillComponent />
+          <ContactComponent />
+        </div>
+      </ObserverProvider>
     </ThemeProvider>
   );
 }

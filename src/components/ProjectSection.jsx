@@ -72,7 +72,7 @@ const projects = [
 const ProjectSection = () => {
   return (
     <section id="Projects" className="projects-section">
-      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white laptop:mb-16">
+      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white laptop:mb-16 intersect:motion-scale-in-0 duration-700">
         My Projects
       </h2>
       <div className="tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap mb-28 tablet:mb-28 md:mb-28 laptop:mb-24">

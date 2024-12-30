@@ -18,8 +18,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 left-0 right-0 z-10 bg-OffWhite dark:bg-gray-900">
-      <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="shadow-sm sticky top-0 left-0 right-0 z-10 bg-OffWhite dark:bg-gray-900">
+      <div className=" w-full flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <FontAwesomeIcon icon={faCode} className="dark:text-white" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">

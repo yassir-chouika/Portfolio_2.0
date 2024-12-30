@@ -33,7 +33,7 @@ const ContactComponent = () => {
   };
   return (
     <section id="Contact">
-      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center pt-20 mb-6  dark:text-white">
+      <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center pt-20 mb-6 dark:text-white intersect:motion-scale-in-0 duration-700">
         Contact
       </h2>
       <div className=" m-4 flex flex-row mt-24 ">

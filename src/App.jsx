@@ -6,6 +6,7 @@ import ProjectSection from "./components/ProjectSection.jsx";
 import SkillComponent from "./components/SkillComponent.jsx";
 import ContactComponent from "./components/ContactComponent.jsx";
 import ObserverProvider from "./context/ObserverProvider.jsx";
+import CursorTrail from "./context/CursorTrail.jsx";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <ThemeProvider>
       <ObserverProvider>
         <div className="bg-OffWhite dark:bg-gray-900">
+          <CursorTrail />
           <NavBar />
           <Hero />
           <ProjectSection />

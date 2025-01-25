@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "../context/ThemeContext";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -56,47 +57,58 @@ const NavBar = () => {
           </button>
         </div>
         <div
-          className={`items-center justify-between ${
+          className={`items-center justify-between motion-translate-x-in-100 ${
             isMenuOpen ? "block" : "hidden"
           } w-full md:flex md:w-auto md:order-1`}
           id="navbar-cta"
         >
           <ul className="flex flex-col font-bold p-4 md:p-0 mt-4  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <a
-                href="#Hero"
-                className="block py-2 px-3 md:p-0 text-white bg-SteelBlue rounded md:bg-transparent md:text-black md:dark:text-black "
-                aria-current="page"
-              >
+            <li
+              className="block py-2 px-3 md:p-0 text-white bg-SteelBlue rounded md:bg-transparent md:text-black md:dark:text-black "
+              aria-current="page"
+            >
+              <Link to="hero-section" smooth={true} duration={700} offset={-90}>
                 <FontAwesomeIcon
                   icon={faHouse}
-                  className="text-SteelBlue dark:text-white"
+                  className="text-SteelBlue dark:text-white cursor-pointer hover:scale-105 duration-200"
                 />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#Projects"
-                className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              <Link
+                to="projects-section"
+                smooth={true}
+                duration={700}
+                offset={30}
               >
-                Projects
-              </a>
+                <p className="cursor-pointer block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:scale-105 duration-200">
+                  Projects
+                </p>
+              </Link>
             </li>
             <li>
-              <a
-                href="#Contact"
-                className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              <Link
+                to="contact-section"
+                smooth={true}
+                duration={700}
+                offset={130}
               >
-                Contact
-              </a>
+                <p className="cursor-pointer block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:scale-105 duration-200">
+                  Contact
+                </p>
+              </Link>
             </li>
             <li>
-              <a
-                href="#Skills"
-                className="block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              <Link
+                to="skill-section"
+                smooth={true}
+                duration={700}
+                offset={-200}
               >
-                Skills
-              </a>
+                <p className="cursor-pointer block py-2 px-3 md:p-0 text-SteelBlue text-center rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-IceBlue md:dark:hover:text-IceBlue dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:scale-105 duration-200">
+                  Skills
+                </p>
+              </Link>
             </li>
           </ul>
         </div>

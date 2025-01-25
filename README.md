@@ -24,6 +24,6 @@ Check out the live version of my portfolio here: [Take a Look](https://yassircho
 - **React**: For building interactive user interfaces.
 - **Tailwind CSS**: For fast and responsive styling.
 - **Vite**: For a lightweight and fast development environment.
-- **And more..**
+- **Rombo Animation and Reactbits**: Utilized for creating smooth, visually appealing animations and transitions.
 
 

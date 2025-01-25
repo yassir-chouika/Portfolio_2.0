@@ -8,11 +8,11 @@ const CardComponent = ({ CardImage, CardTitle, CardDescription, Url }) => {
   };
 
   return (
-    <div className="flex flex-col items-center p-3 tablet:w-1/2 laptop:flex laptop:flex-row laptop:w-1/2 lgDesktop:w-1/3 intersect:motion-preset-blur-up motion-duration-[850ms] motion-delay-700 ">
+    <div className="flex flex-col items-center p-3 tablet:w-1/2 laptop:flex laptop:flex-row laptop:w-1/2 lgDesktop:w-1/3 intersect-once intersect:motion-preset-blur-up motion-duration-[850ms] motion-delay-700 ">
       <img
         className="w-full rounded-lg tablet:w-full laptop:w-64"
         src={CardImage}
-        alt="checklist web app"
+        alt=""
       />
 
       <div className="flex flex-col items-center laptop:items-start mt-4 laptop:mt-0">
@@ -25,7 +25,7 @@ const CardComponent = ({ CardImage, CardTitle, CardDescription, Url }) => {
         <button
           onClick={handleExternalLink}
           type="button"
-          className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="m-4 text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 hover:scale-105 duration-200"
         >
           Source code <FontAwesomeIcon icon={faArrowRight} />
         </button>

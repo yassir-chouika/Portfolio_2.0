@@ -98,7 +98,7 @@ const SkillComponent = () => {
   return (
     <section id="skill-section" className="laptop:my-36">
       <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white intersect-once intersect:motion-scale-in-0 duration-700">
-        My Skills
+      What I Use
       </h2>
       <div className="flex flex-wrap justify-center gap-4 p-4 tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap laptop:justify-center laptop:gap-7 laptop:py-14 px-24 ">
         {skills.map((skill) => (

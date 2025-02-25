@@ -3,13 +3,22 @@ import { v4 as uuidv4 } from "uuid";
 import CardComponent from "./CardComponent";
 
 const projects = [
+  
   {
     id: uuidv4(),
     CardImage: "/Checklist.png",
     CardTitle: "Pre Flight Checklist",
     CardDescription:
-      "Checklist web app built with React to manage tasks efficiently and intuitively. ",
+      "Checklist web app built with React to manage tasks efficiently and intuitively.",
     Url: "https://github.com/yassir-chouika/checklist-project",
+  },
+  {
+    id: uuidv4(),
+    CardImage: "/RenderingBowl.png",
+    CardTitle: "RenderBowl",
+    CardDescription:
+      "RenderBowl: Real-time HTML, CSS, and JavaScript rendering for web development.",
+    Url: "https://github.com/yassir-chouika/Rendering_Bowl",
   },
   {
     id: uuidv4(),
@@ -73,7 +82,7 @@ const ProjectSection = () => {
   return (
     <section id="projects-section">
       <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white laptop:mb-16 intersect-once intersect:motion-scale-in-0 duration-700">
-        My Projects
+        Showcase
       </h2>
       <div className="tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap mb-28 tablet:mb-28 md:mb-28 laptop:mb-24">
         {projects.map((project) => (

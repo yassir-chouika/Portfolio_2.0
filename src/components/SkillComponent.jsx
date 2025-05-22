@@ -15,13 +15,17 @@ import {
   fa7,
   faFileImage,
   faWandSparkles,
+  faAtom,
+  faDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const SkillBox = ({ SkillTitle, SkillIcon }) => {
   return (
     <div>
-      <div className="text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 intersect-once
-      intersect:motion-preset-pop motion-duration-[850ms] motion-delay-500 -motion-translate-y-in-150 ">
+      <div
+        className="text-white bg-SteelBlue hover:bg-IceBlue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 intersect-once
+      intersect:motion-preset-pop motion-duration-[850ms] motion-delay-500 -motion-translate-y-in-150 "
+      >
         {SkillTitle} {SkillIcon}
       </div>
     </div>
@@ -43,6 +47,16 @@ const skills = [
     id: uuidv4(),
     SkillTitle: "Php",
     SkillIcon: <FontAwesomeIcon icon={faPhp} />,
+  },
+  {
+    id: uuidv4(),
+    SkillTitle: "Electron",
+    SkillIcon: <FontAwesomeIcon icon={faAtom} />,
+  },
+  {
+    id: uuidv4(),
+    SkillTitle: "MySql",
+    SkillIcon: <FontAwesomeIcon icon={faDatabase} />,
   },
   {
     id: uuidv4(),
@@ -98,7 +112,7 @@ const SkillComponent = () => {
   return (
     <section id="skill-section" className="laptop:my-36">
       <h2 className="text-2xl tablet:text-3xl laptop:text-4xl font-bold text-center mb-6 dark:text-white intersect-once intersect:motion-scale-in-0 duration-700">
-      What I Use
+        What I Use
       </h2>
       <div className="flex flex-wrap justify-center gap-4 p-4 tablet:flex tablet:flex-wrap laptop:flex laptop:flex-wrap laptop:justify-center laptop:gap-7 laptop:py-14 px-24 ">
         {skills.map((skill) => (

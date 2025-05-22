@@ -3,14 +3,13 @@ import { v4 as uuidv4 } from "uuid";
 import CardComponent from "./CardComponent";
 
 const projects = [
-  
   {
     id: uuidv4(),
-    CardImage: "/Checklist.png",
-    CardTitle: "Pre Flight Checklist",
+    CardImage: "/Code_wallet.png",
+    CardTitle: "Code Wallet",
     CardDescription:
-      "Checklist web app built with React to manage tasks efficiently and intuitively.",
-    Url: "https://github.com/yassir-chouika/checklist-project",
+      "CodeWallet : desktop app that save and organize reusable code snippets.",
+    Url: "https://github.com/yassir-chouika/CodeWallet",
   },
   {
     id: uuidv4(),
@@ -20,6 +19,15 @@ const projects = [
       "RenderBowl: Real-time HTML, CSS, and JavaScript rendering for web development.",
     Url: "https://github.com/yassir-chouika/Rendering_Bowl",
   },
+  {
+    id: uuidv4(),
+    CardImage: "/Checklist.png",
+    CardTitle: "Pre Flight Checklist",
+    CardDescription:
+      "Checklist web app built with React to manage tasks efficiently and intuitively.",
+    Url: "https://github.com/yassir-chouika/checklist-project",
+  },
+
   {
     id: uuidv4(),
     CardImage: "/PetPalsConnect.png",
